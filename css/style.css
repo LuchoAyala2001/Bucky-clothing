@@ -1,0 +1,163 @@
+@font-face {
+    font-family: marca;
+    src: url(../fonts/LEMONMILK-LightItalic.otf);
+}
+@font-face {
+    font-family: presentacion;
+    src: url(../fonts/CaviarDreams.ttf);
+}
+@font-face {
+    font-family: titulo;
+    src: url(../fonts/CaviarDreams_Bold.ttf);
+}
+.encabezado{
+    display: flex;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+    position: sticky;
+    align-items: center;
+    box-shadow: 0 5px 5px 0px rgb(65 64 66);
+    background-color: white;
+    width: 100%;
+}
+
+.marca{
+    font-family: marca;
+    font-size: 2vh;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+li{
+    list-style: none;
+}
+.iconos{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+}
+.titulo{
+    height: 200px;
+    background-image: url(../img/89c78b080225b1aa2263e6e15d2fdddb.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo h1{
+    color: white;
+    font-family: presentacion;
+    font-size: 4vh;
+}
+.ropa h2{
+    text-align: center;
+    font-family: titulo;
+}
+.categoria{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+figure{
+    overflow: hidden;
+    border-radius: 2vh;
+}
+
+.genero img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    transition: 1s;
+}
+
+figure img:hover{
+    transform: scale(1.2);
+}
+figure:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+h3{
+    text-align: center;
+    font-family: titulo;
+}
+.shop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+.algunos-productos{
+    font-family: marca;
+    font-size: 2vh;
+    margin-bottom: 70px;
+}
+.productos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    object-fit: cover;
+    transition: 1s;
+    gap: 50px;
+}
+.producto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.producto figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.producto img{
+    width: 200px;
+    height: 350px;
+}
+.producto h4{
+    font-family: titulo;
+}
+
+footer{
+    height: 400px;
+    background-color: black;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.redes-sociales{
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    gap: 30px;
+    align-items: first baseline;
+
+}
+.red{
+    display: flex;
+    align-items: center;
+}
+
+.redes-sociales a{
+    font-size: 2vh;
+    font-family: titulo;
+    color: white;
+    text-decoration: none;
+}
+.redes-sociales a:hover{
+    color: antiquewhite;
+}
+
+.redes-sociales i{
+    font-size: 2vh;
+}
+.redes-sociales p{
+    font-size: 2vh;
+}
